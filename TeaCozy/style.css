@@ -1,0 +1,176 @@
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  display: inline-flex;
+  width: 1240px;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 20;
+}
+
+.logo {
+  width: 800px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+.nav a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.nav {
+  display: inline-flex;
+  color: seashell;
+  width: 440px;
+  justify-content: flex-end;
+  margin: 0;
+  align-items: center;
+}
+
+.items {
+  display:flex;
+  justify-content: space-between;
+  width: 160px;
+  margin: 0;
+}
+
+#short {
+  width: 100px;
+}
+
+/* main content */
+
+/* mission */
+
+.missionTotal {
+  width: 1240px;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  top: 69px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  margin: 0px 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.headline {
+  width: 1200px;
+}
+
+.headline, .teaHeadline {
+
+  height: 140px;
+  text-align: center;
+  vertical-align: center;
+  background-color: black;
+}
+
+/* featured tea */
+
+.tea {
+  width: 1240px;
+}
+
+.teaContent {
+  width: 1200px;
+  margin: 0 20px;
+}
+
+.teaHeadline {
+  width: 1000px;
+  margin: 150px 100px 0 100px;
+  position: relative;
+}
+
+.images {
+  display: flex;
+  margin: 0px 100px;
+  justify-content: space-around;
+}
+
+.images img {
+  width: 300px;
+  height: 200px;
+}
+
+.image1 h4, .image2 h4, .image3 h4, .image4 h4, .image5 h4 {
+  width: 300px;
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+}
+
+#top {
+  width: 960px;
+}
+
+#bottom {
+  width: 650px;
+  margin: 10px 300px;
+}
+
+/* Locations */
+
+.locations {
+  width: 1240px;
+}
+
+.locationContent {
+  height: 500px;
+  width: 1200px;
+  margin: 0 20px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.locationInfo {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+}
+
+.locationHeadline {
+  text-align: center;
+  padding-top: 45px;
+  margin-bottom: 0;
+}
+
+.downtown, .bayside, .oakdale {
+  width: 300px;
+  height: 250px;
+  opacity: 1;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+}
+
+/* footer */
+
+.footer {
+  width: 1240px;
+}
+
+.footerContent {
+  width: 1200px;
+  margin: 0 20px;
+}
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+.copy {
+  text-align: left;
+}
